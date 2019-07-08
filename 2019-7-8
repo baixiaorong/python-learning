@@ -1,0 +1,31 @@
+# -*- coding: UTF-8 -*
+'''
+2019-7-8 柏晓蓉
+'''
+'''变量命名规则：
+（1）数字字母下划线，
+（2）不能与内置特殊字符冲突
+（3）看其名，知其意'''
+'''变量及其基本类型'''
+a=3
+print type(a)
+a=23.5
+print type(a)
+a=1+2j
+print type(a)
+a=False
+print type(a)
+print '变量类型转换'
+print '转换为整型int()：',int(12.34)
+print '转化为浮点型float()：',float(314)
+print '转化为字符串类型string()'
+print '整数编码转化为对应字符串：',chr(229)
+list=[229,143,178,233,135,145,233,185,143,230,159,143,230,153,147,232,147,137]
+for i in list:
+    t=chr(i)
+    print t
+
+print '字符串转化为对应编码：',ord('s')
+for x in '史金鹏柏晓蓉':
+        t=ord(x)
+        print t
